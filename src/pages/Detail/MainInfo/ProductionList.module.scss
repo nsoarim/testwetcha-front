@@ -1,0 +1,43 @@
+.actor__list {
+  display: flex;
+  align-items: center;
+  height: 76px;
+  width: 50%;
+  padding-right: 15px;
+  &:nth-of-type(3n) .actor__list__text {
+    border-bottom: none;
+  }
+}
+
+.actor__list__imgBox {
+  width: 56px;
+  height: 56px;
+  background-color: black;
+  margin-right: 12px;
+  border-radius: 10px;
+}
+
+.actor__list__img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.actor__list__text {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 10px;
+  height: 100%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.actor__text__name {
+  font-size: 17px;
+}
+
+.actor__list__text__role {
+  font-size: 14px;
+  margin-top: 6px;
+  color: rgba(0, 0, 0, 0.6);
+}

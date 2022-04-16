@@ -1,0 +1,67 @@
+.collection {
+  position: relative;
+}
+
+.collection__container {
+  overflow: hidden;
+}
+
+.collection__inner {
+  display: flex;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+.Collection__double {
+  display: flex;
+}
+
+.collection__card {
+  display: flex;
+  flex-shrink: 0;
+  width: 100%;
+  padding: 6px;
+}
+
+.collection__imgBoxContainer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  background-color: #cccdcf;
+  border: 3px solid #cccdcf;
+  border-radius: 10px;
+  &:hover {
+    background-color: #f1f1f1;
+    border-color: #f1f1f1;
+  }
+}
+
+.collection__imgBox {
+  width: 50%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.collection__images {
+  aspect-ratio: 1/1.45;
+  object-fit: cover;
+  object-position: bottom;
+  width: 98%;
+  height: 98%;
+  border-radius: 5px;
+}
+
+// 세부내용
+.collection__title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 100px 0 20px 15px;
+}
+
+.collection__card__title {
+  margin: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}

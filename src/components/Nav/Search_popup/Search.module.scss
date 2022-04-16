@@ -1,0 +1,30 @@
+.Search {
+  position: absolute;
+  top: 50px;
+  width: 280px;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+.SearchHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SearchTitle {
+  padding: 10px;
+  font-size: 12px;
+  color: #ff0558;
+}
+.SearchRemove {
+  padding: 10px;
+  font-size: 12px;
+  color: #7e7e7e;
+}
+
+.SearchContent {
+  padding: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}

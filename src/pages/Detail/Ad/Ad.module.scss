@@ -1,0 +1,59 @@
+.DetailAd {
+  height: 240px;
+  width: 320px;
+  border: 1px solid rgb(227, 227, 227);
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  @media screen and (min-width: 1600px) {
+    height: 280px;
+    width: 420px;
+  }
+  @media screen and (max-width: 1200px) {
+    width: 640px;
+    height: 125px;
+    margin-top: 10px;
+  }
+}
+.AdImage {
+  width: 320px;
+  border-radius: 6px 6px 0 0;
+  @media screen and (min-width: 1600px) {
+    width: 420px;
+  }
+  @media screen and (max-width: 1200px) {
+    height: 0;
+  }
+}
+.AdExplanation {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 12px;
+}
+.AdTitle {
+  font-size: 15px;
+  font-weight: 400;
+}
+.subTitle1 {
+  font-size: 13px;
+  font-weight: 400;
+}
+.subTitle2 {
+  padding-top: 20px;
+  color: #ff5b00;
+  font-size: 20px;
+  font-weight: 400;
+}
+.AdButton {
+  height: 27px;
+  width: 80px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 2px;
+  background-color: #ff5b00;
+  color: white;
+  text-align: center;
+  font-size: 13px;
+  cursor: pointer;
+}

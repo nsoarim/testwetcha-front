@@ -1,0 +1,73 @@
+.Footer {
+  width: 100%;
+  text-align: center;
+}
+.footerTopSection {
+  height: 62px;
+  line-height: 62px;
+  background-color: #0f1114;
+  color: white;
+  font-size: 19px;
+}
+.footerTopSectionColor {
+  color: #da074d;
+}
+.footerSection {
+  display: flex;
+  justify-content: space-between;
+  padding: 38px 150px;
+  color: #a5a5a7;
+  background-color: #1c1d20;
+}
+.footerSection li {
+  padding: 3px;
+}
+.SectionLeft {
+  font-size: 13px;
+}
+.LeftHeader {
+  display: flex;
+  padding-bottom: 12px;
+}
+.LeftCenter {
+  display: flex;
+}
+.LeftBottomHeader {
+  display: flex;
+  padding-top: 12px;
+}
+.LeftBottom {
+  display: flex;
+}
+.sectionRigh {
+  padding-top: 100px;
+  font-size: 20px;
+}
+.footerFont {
+  padding: 5px;
+}
+.footerFont:hover {
+  color: #59ad28;
+}
+
+@media (max-width: 950px) {
+  .footerSection {
+    padding: 38px 100px;
+  }
+}
+
+@media (max-width: 760px) {
+  .footerSection {
+    padding: 38px 50px;
+  }
+}
+
+@media (max-width: 550px) {
+  .footerSection {
+    display: block;
+  }
+  .SectionLeft {
+    display: none;
+    font-size: 8px;
+  }
+}

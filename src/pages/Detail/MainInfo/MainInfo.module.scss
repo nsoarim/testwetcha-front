@@ -1,0 +1,90 @@
+.info__basic {
+  margin: 0 20px 20px 20px;
+}
+
+.basic__header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  h3 {
+    color: rgb(255, 47, 110);
+  }
+}
+
+.info__actor {
+  margin: 20px;
+}
+
+.actor__header {
+  padding: 20px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.actor__content {
+  scroll-behavior: smooth;
+  position: relative;
+  overflow: hidden;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.actor__ul {
+  height: 228px;
+  display: flex;
+  flex-flow: column wrap;
+  overflow: auto;
+  margin-bottom: 12px;
+}
+
+.info__graph {
+  margin: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.graph__header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__average {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  line-height: 22px;
+  span:nth-child(2) {
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+  }
+}
+
+.header__title {
+  font-size: 19px;
+  font-weight: 700;
+}
+
+//버튼
+.ul__btn {
+  position: absolute;
+  top: 40%;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  color: rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  &:hover {
+    color: rgba(0, 0, 0, 0.6);
+  }
+}
+
+.ul__prevBtn {
+  left: 0px;
+  box-shadow: -4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ul__nextBtn {
+  right: 10px;
+  box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.2);
+}

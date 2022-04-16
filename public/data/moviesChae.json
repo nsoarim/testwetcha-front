@@ -1,0 +1,77 @@
+{
+    "movies": [
+      {
+        "id": "1",
+        "name": "동창회에서 생긴 일ㄴㅁㅇㄹㅁㄴㅇㄹㅇㄴㅁㅎㄹㅁㅎ",
+        "imgUrl": "/images/1.JPG",
+        "ratings": "4.0"
+      },
+      {
+        "id": "2",
+        "name": "축구부",
+        "imgUrl": "/images/1.JPG",
+        "ratings": "5.0"
+      },
+      {
+        "id": "3",
+        "name": "남산공원",
+        "imgUrl": "/images/6.JPG",
+        "ratings": "5.0"
+      },
+      {
+        "id": "4",
+        "name": "산책나와서 신난 사람",
+        "imgUrl": "/images/6.JPG",
+        "ratings": "4.8"
+      },
+      {
+        "id": "5",
+        "name": "사울레이터와 빨간 우산",
+        "imgUrl": "/images/6.JPG",
+        "ratings": "5.0"
+      },
+      {
+        "id": "6",
+        "name": "이루어진 사랑",
+        "imgUrl": "/images/6.JPG",
+        "ratings": "5.0"
+      },
+      {
+        "id": "7",
+        "name": "사진 외 않나와",
+        "imgUrl": "/images/1.JPG",
+        "ratings": "4.3"
+      },
+      {
+        "id": "8",
+        "name": "넓은 의자와 두 명",
+        "imgUrl": "/images/8.JPG",
+        "ratings": "4.1"
+      },
+      {
+        "id": "9",
+        "name": "러러러럼블",
+        "imgUrl": "/images/9.JPG",
+        "ratings": "5.0"
+      },
+      {
+        "id": "10",
+        "name": "소용돌이",
+        "imgUrl": "/images/10.JPG",
+        "ratings": "3.0"
+      },
+      {
+        "id": "11",
+        "name": "개발자의 자질",
+        "imgUrl": "/images/11.JPG",
+        "ratings": "4.6"
+      },
+      {
+        "id": "12",
+        "name": "오늘 내 세상이 뒤집어졌어",
+        "imgUrl": "/images/10.JPG",
+        "ratings": "3.7"
+      }
+    ]
+  }
+  

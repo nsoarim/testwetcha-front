@@ -1,0 +1,47 @@
+[
+  {
+    "id": 0,
+    "poster_url": "/images/fullstack4_1.jpg",
+    "name": "godgod"
+  },
+  {
+    "id": 1,
+    "poster_url": "/images/fullstack4_2.jpg",
+    "name": "godgod"
+  },
+  {
+    "id": 2,
+    "poster_url": "/images/fullstack4_3.jpg",
+    "name": "godgod"
+  },
+  {
+    "id": 3,
+    "poster_url": "/images/fullstack4_4.jpg",
+    "name": "godgod"
+  },
+  {
+    "id": 4,
+    "poster_url": "/images/fullstack4_5.png",
+    "name": "godgod"
+  },
+  {
+    "id": 5,
+    "poster_url": "/images/fullstack4_6.jpg",
+    "name": "godgod"
+  },
+  {
+    "id": 6,
+    "poster_url": "/images/fullstack4_7.jpg",
+    "name": "godgod"
+  },
+  {
+    "id": 7,
+    "poster_url": "/images/fullstack4_8.jpg",
+    "name": "godgod"
+  },
+  {
+    "id": 8,
+    "poster_url": "/images/fullstack4_9.jpg",
+    "name": "godgod"
+  }
+]

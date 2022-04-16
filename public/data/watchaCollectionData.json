@@ -1,0 +1,65 @@
+[
+  {
+    "movie_id": 15,
+    "category_id": 1,
+    "category_name": "박스오피스 순위",
+    "movie_rank": 1,
+    "poster_url": "https://raw.githubusercontent.com/nsoarim/wetchaimage/main/poster/8.png"
+  },
+  {
+    "movie_id": 19,
+    "category_id": 1,
+    "category_name": "박스오피스 순위",
+    "movie_rank": 2,
+    "poster_url": "https://raw.githubusercontent.com/nsoarim/wetchaimage/main/poster/8.png"
+  },
+  {
+    "movie_id": 35,
+    "category_id": 2,
+    "category_name": "위챠 Top 10 영화",
+    "movie_rank": 3,
+    "poster_url": "https://raw.githubusercontent.com/nsoarim/wetchaimage/main/poster/8.png"
+  },
+  {
+    "movie_id": 22,
+    "category_id": 2,
+    "category_name": "위챠 Top 10 영화",
+    "movie_rank": 1,
+    "poster_url": "https://raw.githubusercontent.com/nsoarim/wetchaimage/main/poster/8.png"
+  },
+  {
+    "movie_id": 50,
+    "category_id": 2,
+    "category_name": "위챠 Top 10 영화",
+    "movie_rank": 2,
+    "poster_url": "https://raw.githubusercontent.com/nsoarim/wetchaimage/main/poster/8.png"
+  },
+  {
+    "movie_id": 13,
+    "category_id": 2,
+    "category_name": "위챠 Top 10 영화",
+    "movie_rank": 3,
+    "poster_url": "https://raw.githubusercontent.com/nsoarim/wetchaimage/main/poster/8.png"
+  },
+  {
+    "movie_id": 27,
+    "category_id": 3,
+    "category_name": "김영서 평론가님이 최근에 재미있게 본",
+    "movie_rank": 1,
+    "poster_url": "https://raw.githubusercontent.com/nsoarim/wetchaimage/main/poster/8.png"
+  },
+  {
+    "movie_id": 20,
+    "category_id": 3,
+    "category_name": "김영서 평론가님이 최근에 재미있게 본",
+    "movie_rank": 2,
+    "poster_url": "https://raw.githubusercontent.com/nsoarim/wetchaimage/main/poster/8.png"
+  },
+  {
+    "movie_id": 3,
+    "category_id": 3,
+    "category_name": "김영서 평론가님이 최근에 재미있게 본",
+    "movie_rank": 3,
+    "poster_url": "https://raw.githubusercontent.com/nsoarim/wetchaimage/main/poster/8.png"
+  }
+]

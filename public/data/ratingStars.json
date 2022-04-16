@@ -1,0 +1,45 @@
+{
+    "stars": [
+      {
+        "id": 1,
+        "imageUrl": "/images/star/star_1.png"
+      },
+      {
+        "id": 2,
+        "imageUrl": "/images/star/star_2.png"
+      },
+      {
+        "id": 3,
+        "imageUrl": "/images/star/star_3.png"
+      },
+      {
+        "id": 4,
+        "imageUrl": "/images/star/star_4.png"
+      },
+      {
+        "id": 5,
+        "imageUrl": "/images/star/star_5.png"
+      },
+      {
+        "id": 6,
+        "imageUrl": "/images/star/star_6.png"
+      },
+      {
+        "id": 7,
+        "imageUrl": "/images/star/star_7.png"
+      },
+      {
+        "id": 8,
+        "imageUrl": "/images/star/star_8.png"
+      },
+      {
+        "id": 9,
+        "imageUrl": "/images/star/star_9.png"
+      },
+      {
+        "id": 10,
+        "imageUrl": "/images/star/star_10.png"
+      }
+    ]
+  }
+  

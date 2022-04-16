@@ -1,0 +1,51 @@
+.SimilarMovie {
+  width: 642px;
+  border: 1px solid rgb(227, 227, 227);
+  border-radius: 6px;
+}
+.SimilarMovieTilte {
+  margin-top: 15px;
+  padding: 20px 17px;
+  font-size: 20px;
+  font-weight: 700;
+}
+.movieSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 0 13px;
+  cursor: pointer;
+}
+
+.MovieSections {
+  padding: 5px;
+}
+.MovieSectionImg {
+  width: 142px;
+  border-radius: 6px;
+}
+.MovieSectionName {
+  color: rgb(41, 42, 50);
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 0 3px 0;
+}
+.MovieSectionRating {
+  display: flex;
+  align-items: center;
+  color: rgb(120, 120, 120);
+  font-size: 13px;
+  font-weight: 400;
+  padding: 3px 0;
+}
+.MovieSectionfaStar {
+  font-size: 10px;
+  padding: 0 2px;
+}
+.MovieSectionGenre {
+  color: rgb(160, 160, 160);
+  font-size: 12px;
+  font-weight: 400;
+}
+.MovieSectionGenre {
+  padding-bottom: 20px;
+}

@@ -1,0 +1,13 @@
+[
+  {
+    "movie_id": 1,
+    "movie_name": "이별 후의 두 사람",
+    "release_date": "2011/11/14",
+    "genre_name": "로맨스",
+    "country_name": "미국",
+    "run_time": 100,
+    "movie_age": 0,
+    "movie_story": "차를 타고 시골길을 달리다 다투는 연인 혁과 이슬.",
+    "poster_url": "https://raw.githubusercontent.com/nsoarim/wetchaimage/main/poster/8.png"
+  }
+]

@@ -1,0 +1,419 @@
+.wholeWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.imageWrapper {
+  display: inline;
+}
+
+.movieSceneImage {
+  display: inline;
+  position: relative;
+  aspect-ratio: 1/0.25;
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+}
+
+.infoBlock {
+  display: block;
+  // flex-direction: row;
+  // flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.poster {
+  display: inline-block;
+  // display: flex;
+  // flex-wrap: wrap;
+  position: absolute;
+  top: 23vw;
+  left: 16.5vw;
+  aspect-ratio: 1/1.45;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 3px;
+  border: 0.2em solid white;
+  box-shadow: 0 0 0.03em 0.03em grey;
+  width: 11.5%;
+}
+
+.titlesAndIcons {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 0 3% 0 0;
+  padding-left: 30%;
+  padding-top: 1.4%;
+  padding-bottom: 2%;
+}
+
+.movieTitle {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2.3vw;
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+
+.movieInfo {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.2vw;
+  padding-bottom: 1.2%;
+  color: rgb(131, 131, 131);
+}
+
+.averageRating {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1.2vw;
+  padding: 1.2% 0;
+  margin: 0 22% 1.2% 0;
+  border-top: solid 1px;
+  border-bottom: solid 1px;
+  border-color: rgb(224, 224, 224);
+}
+
+.starIcon {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 80%;
+}
+
+.clickables {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.starAndLetter {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  padding: 0 2%;
+  border-right: 1px solid rgb(224, 224, 224);
+}
+
+.rateStars {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-size: 80%;
+  margin-bottom: 2%;
+  color: rgb(168, 168, 168);
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  object-fit: cover;
+  margin-bottom: 10px;
+  width: 100%;
+  height: auto;
+}
+
+//별 컴포넌트
+.eachStars {
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  // filter: gray; /* IE6-9 */
+  // -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  // filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  // cursor: pointer;
+}
+
+.on {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  -webkit-filter: grayscale(0);
+  filter: none;
+  cursor: pointer;
+}
+.off {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+  cursor: pointer;
+}
+
+//컴포넌트 끝
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+  height: auto;
+}
+
+.wantToWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  height: 40%;
+  margin-top: 4%;
+}
+
+.wantToWrapper:hover {
+  cursor: pointer;
+}
+
+.wantTo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 15px;
+  transition-duration: 500ms;
+  @media screen and (max-width: 1350px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 1100px) {
+    font-size: 0px;
+  }
+}
+
+.notYet {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 130%;
+  transition: all 0.2s ease-in-out;
+}
+
+.notYetHover {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 130%;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.3);
+}
+
+.yesPlease {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 130%;
+  transition: all 0.2s ease-in-out;
+  color: #ff0458;
+}
+
+.yesPleaseHover {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 130%;
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.3);
+  color: #ff0458;
+}
+
+.commentWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 15%;
+  height: 40%;
+  margin-top: 4%;
+}
+
+.commentWrapper:hover {
+  cursor: pointer;
+}
+
+.comment {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-size: 15px;
+  transition-duration: 500ms;
+
+  @media screen and (max-width: 1350px) {
+    font-size: 12px;
+  }
+  @media screen and (max-width: 1100px) {
+    font-size: 0px;
+  }
+}
+
+//코멘트 수정, 삭제 컴포넌트 스타일링
+
+.popUpOpen {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 12%;
+  height: 10%;
+  bottom: 15%;
+  right: 27%;
+  top: 71%;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 0 3px #848484;
+}
+
+.popUpOpenInvisible {
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 12%;
+  height: 10%;
+  bottom: 15%;
+  right: 27%;
+  top: 71%;
+  border-radius: 3px;
+  background-color: white;
+  box-shadow: 0 0 3px #848484;
+  visibility: hidden;
+}
+
+.buttonWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+}
+
+.commentEdit {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 3px;
+  width: 98%;
+  height: 100%;
+  margin: 2%;
+  padding-left: 8%;
+}
+
+.commentEdit:hover {
+  background-color: rgb(236, 236, 236);
+  cursor: pointer;
+}
+
+.modalPencil {
+  padding-right: 7%;
+}
+
+.commentDelete {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-radius: 3px;
+  width: 98%;
+  height: 100%;
+  margin: 2%;
+  padding-left: 8%;
+}
+
+.commentDelete:hover {
+  background-color: rgb(236, 236, 236);
+  cursor: pointer;
+}
+
+.trash {
+  padding-right: 7%;
+}
+
+//코멘트 삭제 모달창 스타일링
+
+.modalWrapper {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+}
+
+.modalWrapperClosed {
+  display: none;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  visibility: hidden;
+}
+
+.deleteModal {
+  position: fixed;
+  background-color: white;
+  width: 19%;
+  top: 42%;
+  right: 40%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.confirmBlock {
+  padding: 7% 0%;
+  margin: 0 7%;
+  border-bottom: 1px solid rgb(191, 191, 191);
+  pointer-events: none;
+}
+
+.alert {
+  font-weight: bold;
+  padding: 2%;
+}
+
+.confirmation {
+  padding: 2%;
+}
+
+.confirmationButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 100%;
+  padding: 4%;
+}
+
+.cancel {
+  font-size: 120%;
+  width: 100%;
+  height: auto;
+  color: #ff0458;
+  border-right: 1px solid rgb(191, 191, 191);
+}
+
+.cancel:hover {
+  cursor: pointer;
+}
+
+.deleteConfirm {
+  font-size: 120%;
+  color: #ff0458;
+  width: 100%;
+  height: auto;
+}
+.deleteConfirm {
+  cursor: pointer;
+}
